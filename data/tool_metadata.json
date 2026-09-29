@@ -1,0 +1,8 @@
+{
+  "dig": {"component":"dns","reliability":0.98,"cost":0.10,"risk":0.02},
+  "traceroute": {"component":"routing","reliability":0.90,"cost":0.25,"risk":0.05},
+  "avi_lookup": {"component":"load_balancer","reliability":0.96,"cost":0.18,"risk":0.03},
+  "firewall_check": {"component":"firewall","reliability":0.94,"cost":0.30,"risk":0.10},
+  "server_health": {"component":"server","reliability":0.95,"cost":0.20,"risk":0.04},
+  "application_health": {"component":"application","reliability":0.93,"cost":0.22,"risk":0.04}
+}
