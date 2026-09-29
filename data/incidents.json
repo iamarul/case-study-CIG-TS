@@ -1,0 +1,8 @@
+[
+ {"id":"INC001","symptom":"Users cannot access payment.example.com","root_cause":"load_balancer","context":["application","load_balancer"]},
+ {"id":"INC002","symptom":"Hostname api.example.com does not resolve","root_cause":"dns","context":["dns","application"]},
+ {"id":"INC003","symptom":"Application times out from remote branch","root_cause":"routing","context":["routing","application"]},
+ {"id":"INC004","symptom":"Requests are blocked between web and API tiers","root_cause":"firewall","context":["firewall","application"]},
+ {"id":"INC005","symptom":"Service returns 503 although network path is reachable","root_cause":"server","context":["server","application"]},
+ {"id":"INC006","symptom":"Application health endpoint returns errors while infrastructure is healthy","root_cause":"application","context":["application"]}
+]
